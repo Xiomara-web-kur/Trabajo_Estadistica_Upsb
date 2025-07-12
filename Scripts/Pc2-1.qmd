@@ -1,0 +1,39 @@
+---
+title: "Proyecto_PC2"
+author: "Lucho"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+install.packages("rio")
+install.packages("tidyverse")
+install.packages("GGally")
+install.packages("here")
+install.packages("forcats")
+install.packages("gridExtra")
+```
+
+You can add options to executable code like this
+
+```{r}
+library(here)
+library(tidyverse)
+library(GGally)
+library(forcats)
+library(gridExtra)
+```
+
+# **Hacer correr una data**
+
+```{r}
+
+```
